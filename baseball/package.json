@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.5.0",
+    "socketio": "^1.0.0"
+  },
+  "scripts": {
+    "start-client": "webpack && webpack-dev-server",
+    "start-server": "node server.js"
+  }
+}
